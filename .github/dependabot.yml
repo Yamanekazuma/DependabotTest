@@ -1,0 +1,13 @@
+version: 2
+updates:
+    - package-ecosystem: "gradle"
+      directory: "/"
+      schedule:
+          interval: "weekly"
+      labels:
+        - "environment"
+        - "dependabot"
+      reviewers:
+        - "Yamanekazuma"
+      rebase-strategy: "disabled"
+      target-branch: "main"
